@@ -238,7 +238,7 @@ try {
       )
     )
 } catch (error) {
-  
+  throw  new ApiError(401, "Unauthorized request");
 }
 })
 
